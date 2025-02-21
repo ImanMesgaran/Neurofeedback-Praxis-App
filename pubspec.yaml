@@ -1,0 +1,58 @@
+name: neurofeedback_praxis_app
+description: Test assignment for Senior Flutter developerp
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  bloc: ^8.1.4
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.6
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.19.0
+  shimmer: ^3.0.0
+  flutter_svg: ^2.0.17
+  carousel_slider: ^5.0.0
+  rxdart: 0.27.7
+  cached_network_image: 3.4.1
+  font_awesome_flutter: 10.7.0
+  google_fonts: 6.1.0
+  flutter_blurhash: ^0.8.2
+  image_picker: 1.1.2
+  marquee: ^2.2.3
+  shared_preferences: 2.3.2
+  sqflite: 2.3.3+1
+  sqflite_common: 2.5.4+3
+  storage_client: 2.0.3
+  supabase: 2.3.0
+  supabase_flutter: 2.6.0
+  uuid: ^4.0.0
+  freezed: ^2.5.7
+  freezed_annotation: ^2.3.1
+  equatable: ^2.0.7
+  json_annotation: ^4.9.0
+  lucide_icons: ^0.257.0
+
+dev_dependencies:
+  bloc_test: ^9.1.7
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.4
+  very_good_analysis: ^6.0.0
+  rxdart: 0.27.7
+  intl: 0.19.0
+  freezed: ^2.5.7
+  build_runner: ^2.4.13
+  json_serializable: ^6.7.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/vectors/
+    - assets/images/
