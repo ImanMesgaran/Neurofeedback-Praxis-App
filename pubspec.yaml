@@ -20,7 +20,7 @@ dependencies:
   rxdart: 0.27.7
   cached_network_image: 3.4.1
   font_awesome_flutter: 10.7.0
-  google_fonts: 6.1.0
+  google_fonts: 6.2.1
   flutter_blurhash: ^0.8.2
   image_picker: 1.1.2
   marquee: ^2.2.3
